@@ -1,0 +1,180 @@
+body {
+  font-size: 16px;
+  color: #999;
+}
+
+nav {
+  background-color: #fff;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.showcase {
+  height: 70vh;
+  background: url("./img/hero-bg.jpg") no-repeat center center/cover;
+  position: relative;
+}
+
+.showcase::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.content {
+  z-index: 2;
+}
+
+.content h1 {
+  font-size: 3rem;
+}
+
+.content p {
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+
+.about-section {
+  padding-top: 160px;
+  padding-right: 0px;
+  padding-bottom: 160px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-image: url(/img/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: 0 0;
+}
+
+.about-section h3 {
+  color: #09445a;
+}
+
+.service-section .content {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.service-section .number {
+  background: linear-gradient(to top, #dd4454 0%, #dd9044 100%);
+  -webkit-background-clip: text;
+  counter-increment: special-heading;
+  font-size: 100px;
+  font-weight: 300;
+  line-height: 1;
+  -webkit-text-fill-color: transparent;
+}
+
+.service-section .text {
+  color: #09445a;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.service-section p {
+  color: #999;
+}
+
+.title-section {
+  color: #09445a;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.btn-action {
+  border: 2px solid transparent;
+  background-image: linear-gradient(
+    to right,
+    #dd4454 0%,
+    #dd9044 50%,
+    #dd4454 100%
+  );
+  background-size: 200% auto;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.5s;
+  border-radius: 5em;
+  font-weight: 500;
+  min-width: 250px;
+  padding: 18px 16px;
+  white-space: inherit;
+}
+
+.btn-action:hover {
+  color: #fff;
+}
+
+.text-orange {
+  color: #ff5e14;
+}
+
+.bg-orange {
+  background-color: #ff5e14;
+}
+
+.py-160 {
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+
+.contact h3 {
+  color: #09445a;
+}
+
+@media (max-width: 600px) {
+  .content h1 {
+    font-size: 1.5rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+
+  .about-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .btn-action {
+    display: block;
+    margin: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .service-section .content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .service-section .number {
+    font-size: 70px;
+  }
+
+  .service-section .text {
+    font-size: 22px;
+  }
+
+  .contact {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .contact-text {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}

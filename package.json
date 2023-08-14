@@ -1,5 +1,5 @@
 {
-  "name": "otl",
+  "name": "amic",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "",
-  "homepage": "https://gulfwww.github.io/dhow",
+  "homepage": "https://gulfwww.github.io/amic",
   "license": "ISC",
   "dependencies": {
     "gh-pages": "^5.0.0"

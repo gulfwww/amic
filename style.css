@@ -259,6 +259,10 @@ svg {
   object-fit: cover;
 }
 
+.fw-600 {
+  font-weight: 600;
+}
+
 @media (max-width: 600px) {
   .sticky-navbar .nav-item {
     margin-right: 16px;
